@@ -1,8 +1,6 @@
 #include <windows.h>
 
-//#define t char*
-//typedef BOOL (__stdcall *funcname_ptr)(void * arg1, const char * arg2, DWORD flags, ...);
-//#define __stdcall __attribute__((stdcall))
+
 int WINAPI WinMain(HINSTANCE hInst,HINSTANCE hPrev,LPSTR lpCmdLine, int iCmdShow){
 
    int s =  MessageBox(NULL,"Hi This is my First c++ GUI","Win32 API Say:",6);
@@ -15,7 +13,3 @@ int WINAPI WinMain(HINSTANCE hInst,HINSTANCE hPrev,LPSTR lpCmdLine, int iCmdShow
    }
     return 0;
 }
-
-
-	//MessageBox(NULL, "Hello C++ win Api." "Notice",MB_OK | MB_ICONEXCLAMATION);
-
